@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 1vh;
+  }
+
+  body {
+    background-color: rgb(235, 235, 235);
+  }
+
+  html {
+    font-family: "Rubik", sans-serif;
+    color: #444;
+  }
+  header {
+    
+    height: 50vh;
+    position: relative;
+    text-align: center;
+
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../images/broomball_frontpage.jpg);
+    background-size: cover;
+    color: #fff;
+  }
+
+  .header-container {
+    width: 1200px;
+    position: absolute;
+
+    
+    left: 50%;
+    top: 50%;
+
+   
+    transform: translate(-50%, -50%);
+
+ 
+  }
+
+  h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+  }
+
+  h3 {
+    font-size: 36px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #da975d;
+    color: rgb(11, 4, 4);
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+  }
+
+  h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+
+  section {
+    height: 100%;
+    padding-top: 96px;
+    background-color: #ebebeb;
+  }
+
+  .menu-bar{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    color: #fff;
+  }
+
+  .top-links:link, .top-links:visited{
+    font-size: 24px;
+    color: #da975d;
+  }
+
+  
+  .header-container-inner{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin:auto;
+    width:100%
+  }
+
+  .head-container{
+    background-color: purple;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+  }
+
+  .standings-table{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .standings{
+    border: 1px solid black;
+    margin-top: 24px;
+  }
+
+  .sign-up {
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 24px;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .logo-pic{
+    position:fixed;
+    bottom:0px;
+    right: 0%;
+}
+
+.submit-button {
+  padding: 2px;
+}
+
+
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+  
+    h5{
+      font-size: 50px;
+    }
+
+    .standings-box{
+      min-height: 1000em;
+    }
+
+    .navbar-extra{
+      justify-content:space-between;
+      font-size: 24px;
+      font-style: bold;
+    }
+
+
+  .hoverTable{
+  width:65%; 
+  border-collapse:collapse; 
+}
+.hoverTable td{ 
+  padding:7px; border-bottom:black 1px solid;
+}
+/* Define the default color for all the table rows */
+.hoverTable tr{
+  background: white;
+}
+/* Define the hover highlight color for the table row */
+  .hoverTable tr:nth-child(n+2):hover {
+        background-color: #a8a8a8;
+  }
+
+  .hoverTable th{
+    color:darkgray;
+    padding:7px;
+    border-bottom: black 1px solid;
+  }
+    
+  .wide-column{
+    width: 50%;
+    text-align: left;
+  }
+
+  .body{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(74, 74, 74);
+  }
+
+  .centerBox{
+    height:auto;
+    background-color: white;
+      width: 70%;
+      padding-bottom: 40px;
+      padding-top: 40px;
+  }
+
+  .centerBoxTop{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: dashed black 1px;
+    padding-bottom: 24px;
+  }
+
+  .centerBoxBottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .centerBoxLeft{
+  	width: 50%;
+  	text-align:center;
+  }
+  .centerBoxRight{
+  	width:50%;
+  	text-align:center;
+  }
+
+  .schedulePic{
+    margin-left: 3%;
+    width:25%;
+  }
+
+  .scheduleColumn{
+    width: 50%;
+    margin-left: 10%;
+    
+  }
+
+  .scheduleBox{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    width: 85%;
+    height: 72px;
+    display: flex;
+    margin-top: 12px;
+  }
+
+  .teams{
+    width: 70%;
+    border-right: 1px solid black;
+    display: block;
+    padding-right: 32px;
+  }
+
+  .team2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-left: 8px;
+  }
+
+  .team1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    margin-left: 8px;
+  }
+
+  .scheduleBoxRight{
+    width: 30%;
+    justify-content: center;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+  .dateOrLoc{
+    text-align: center;
+  }
